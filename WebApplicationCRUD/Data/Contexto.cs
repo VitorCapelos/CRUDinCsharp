@@ -11,6 +11,6 @@ namespace WebApplicationCRUD.Data
 
         public DbSet<Usuario> Usuario { get; set; }
         public DbSet<Visitantes> Visitantes { get; set; }
-
+        public DbSet<ListagemEmpregos> ListagemEmpregos { get; set; }
     }
 }
